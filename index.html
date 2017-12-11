@@ -11,14 +11,26 @@
 
 </head>
 <body>
-	<div>Title</div>
-	<div>Instructions</div>
-	<div>System Score</div>
-	<div>Scoreboard</div>
-	<div id="citrine" class="crystal">Citrine</div>
-	<div id="celestine" class="crystal">Celestine</div>
-	<div id="quartz" class="crystal">Quartz</div>
-	<div id="emerald" class="crystal">Emerald</div>
-	<div>PlayerScore</div>
+	<h1>Crystal Stacker!</h1>
+	<div class="instructions">
+	<p>The computer will get a random number when the game beings.</p>
+
+	<p>Each crystal will get a random value at the beginning of each game.</p>
+
+	<p>Click on each crystal to add their values up.</p>
+
+	<p>You win when your total matches the computer's number. But be careful to not go over or you will lose!</p>
+	</div>
+	<div id="systemScore" class="dynamic">System Score</div>
+	<div id="scoreboard">
+		<div id="promptText"></div>
+		<div id="winCount"></div>
+		<div id="lossCount"></div>
+	</div>
+	<img id="citrine" class="crystal" src="./assets/images/citrine.jpg" alt="citrine">
+	<img id="celestine" class="crystal" src="./assets/images/celestine.jpg" alt="celestine">
+	<img id="quartz" class="crystal" src="./assets/images/quartz.jpg" alt="quartz">
+	<img id="emerald" class="crystal" src="./assets/images/emerald.jpg" alt="emerald">
+	<div id="playerScore" class="dynamic">PlayerScore</div>
 </body>
 </html>
