@@ -1,0 +1,35 @@
+div {
+	padding: 10px;
+}
+body {
+	background-image: url(../images/circles-dark.png);
+}
+h1 {
+	font-size: 72px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+p {
+	padding: 6px;
+	margin-left: 50px;
+}
+.crystal {
+	width: 90px;
+	height: 90px;
+}
+.dynamic {
+	background-color: grey;
+	height: 30px;
+	width: 50px;
+	font-weight: bold;
+	text-align: center;
+	padding-top:20px;
+}
+#scoreboard {
+	background-color: lightgrey;
+	width: 400px;
+	text-align: center;
+}
+.instructions {
+	background-color: lightblue;
+}
