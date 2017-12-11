@@ -10,8 +10,8 @@ var userScore = 0;
 var winTally = 0;
 var lossTally = 0;
 
-$("#systemScore").html(computerNumber);
-$("#playerScore").html(userScore);
+$("#systemScore").html("Match this number: " + computerNumber);
+$("#playerScore").html("Your total: " + userScore);
 $("#winCount").html("Wins: " + winTally);
 $("#lossCount").html("Loss: " + lossTally);
 
@@ -22,8 +22,8 @@ function randomizeNumbers() {
 	quartz = Math.floor(Math.random() * 12) + 1;
 	emerald = Math.floor(Math.random() * 12) + 1;
 	userScore = 0;
-	$("#systemScore").html(computerNumber);
-	$("#playerScore").html(userScore);
+	$("#systemScore").html("Match this number: " + computerNumber);
+	$("#playerScore").html("Your total: " + userScore);
 	$("#winCount").html("Wins: " + winTally);
 	$("#lossCount").html("Loss: " + lossTally);
 

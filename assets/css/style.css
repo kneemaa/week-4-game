@@ -16,11 +16,12 @@ p {
 .crystal {
 	width: 90px;
 	height: 90px;
+	margin-left: 4px;	
 }
 .dynamic {
 	background-color: grey;
 	height: 30px;
-	width: 50px;
+	width: 400px;
 	font-weight: bold;
 	text-align: center;
 	padding-top:20px;
